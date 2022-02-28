@@ -1,0 +1,68 @@
+body {
+    min-height: 100vh;
+    margin: 0 auto;
+    text-align: center;
+    font-family:'Chilanka',cursive;
+    background-color: #C5ECFE;
+  }
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  
+  .newTemp {
+    margin: 10px;
+    display: flex;
+    background-color: #F8846C;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+  }
+  
+  .newTemp2 {
+    margin: 10px;
+    display: flex;
+    background-color: #F8BF6C;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+  }
+  
+  .newTemp3 {
+    margin: 10px;
+    display: flex;
+    background-color: #F8F06C;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+  }
+  
+  p, label, input, button {
+    margin-left: 20px;
+  }
+  
+  button {
+    background-color: #fff;
+    border-radius: 12px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 5px;
+  
+  }
+  button:hover{
+      background-color: black;
+      color: white;
+  }
+  input {
+    width: 200px;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
